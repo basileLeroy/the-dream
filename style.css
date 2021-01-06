@@ -81,7 +81,7 @@ body .box-container .values {
 }
 
 body .box-container .values .currency-types {
-  width: 15px;
+  width: 30px;
 }
 
 body .box-container .values span {
@@ -104,7 +104,7 @@ body .box-container .calculate {
           justify-content: center;
 }
 
-body .box-container .calculate button {
+body .box-container .calculate #submit {
   width: 100px;
   height: 40px;
 }
