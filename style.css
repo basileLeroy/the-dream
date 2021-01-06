@@ -1,1 +1,111 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body header {
+  width: 100vw;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+body .box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  width: 800px;
+  height: 500px;
+  background-color: azure;
+}
+
+body .box-container .countries {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 75px;
+}
+
+body .box-container .countries .country-select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .box-container .countries .switch-countries {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body .box-container .values {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 75px;
+}
+
+body .box-container .values .currency-types {
+  width: 15px;
+}
+
+body .box-container .values span {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+body .box-container .calculate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .box-container .calculate button {
+  width: 100px;
+  height: 40px;
+}
+/*# sourceMappingURL=style.css.map */
